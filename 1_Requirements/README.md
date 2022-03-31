@@ -74,21 +74,23 @@
 <br />➺ Pressure to reduce costs while meeting expectations of universal healthcare coverage. 
          
 <br />➺ Increased competition from newly built hospitals.
-        # <ins> *4W'S and 1H*
-Where
+        
+         # <ins> *4W'S and 1H*
+ 
+# <ins> Where
       It is used in supermarkets for calculating bills
 
-Who
+# <ins>Who
     Supermarkets will benefit for calculating bills in easy way.
 
-When
+# <ins> When
     To maintain details of seller,Product,Stock and to find the least prized seller for that particular product.
 
-What
+# <ins> What
     The program for shopping releated data storage,seeking the seller and maintaining data about products
 
-How
-   Making the user to select the particular operation and processing it and displaying the results
+<br />➺ How
+         Making the user to select the particular operation and processing it and displaying the results
 Get Outlook for Android
          
  # <ins>**HIGH LEVEL REQUIREMENTS:**
