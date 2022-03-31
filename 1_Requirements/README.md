@@ -51,22 +51,29 @@
  <br />➺  Risk of computer virus.
          
 # <ins> *Opportunities:*
- <br />➺ Collaborate with different healthcare organizations to knowledge share
+<br />➺ Direct sales - Many businesses use e-commerce for the direct selling of goods or services online
          
- <br />➺ Develop healthcare programs and initiatives to drive more community outreach and engagement 
+<br />➺ Pre-sales - Can use your website for pre-sales activities and generate sales leads.
+         
+<br />➺ Post-sales support. 
+         
+<br />➺Ensuring success.
+         
+ <br />➺ Develop programs and initiatives to drive more community outreach.
          
  <br />➺ Increase funding for analytics and researching, including both staff and technology 
          
- <br />➺   Create mentor programs
+ <br />➺   Create mentor programs.
 
 # <ins>*Threats:*
-<br />➺ Economic or political insecurity
          
-<br />➺ Policy and legislation changes that result in budget deficits 
+<br />➺ Economic or political insecurity.
          
-<br />➺ Pressure to reduce costs while meeting expectations of universal healthcare coverage 
+<br />➺ Policy and legislation changes that result in budget deficits. 
          
-<br />➺ Increased competition from newly built hospitals
+<br />➺ Pressure to reduce costs while meeting expectations of universal healthcare coverage. 
+         
+<br />➺ Increased competition from newly built hospitals.
          
  # <ins>**HIGH LEVEL REQUIREMENTS:**
 
