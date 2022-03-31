@@ -75,7 +75,7 @@
          
 <br />➺ Increased competition from newly built hospitals.
         
-         # <ins> *4W'S and 1H*
+# <ins>*4W'S and 1H*
  
 # <ins> Where
       It is used in supermarkets for calculating bills
