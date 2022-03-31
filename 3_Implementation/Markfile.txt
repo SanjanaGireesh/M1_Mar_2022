@@ -1,8 +1,0 @@
-#Targetname : Dependent target names
-#<TAB>command
-
-Build:
-	gcc add_Shopping _Cart.c add_Shopping _Cart.h test_Shopping _Cart.c ../unity/unity.c -I../unity
-
-Run:
-	./a.out
