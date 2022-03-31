@@ -298,5 +298,5 @@ void main()
 
 
 
-TESTING AND OUTPUT IMPLEMENTED USING C PROGRAMMING
-Compiler Visual Studio Code
+**TESTING AND OUTPUT IMPLEMENTED USING C PROGRAMMING**
+<br />*Compiler Visual Studio Code*
