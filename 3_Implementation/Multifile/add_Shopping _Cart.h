@@ -1,0 +1,104 @@
+/**
+ * @file add_integer.h
+ * @author Bharath G 
+ * @brief Interface for Adding two integer numbers with underflow and overflow checks
+ * @version 0.1
+ * @date 2022-03-17
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+static int product_count;
+static int seller_count;
+static int productSeller;
+static int cartCount;
+
+struct Product{
+    char productName[30];
+    char manufacturer[30];
+    char description[50];
+};
+
+struct Seller{
+    char company[30];
+    char name[30];
+    char address[30];
+    char contact[10];
+};
+
+struct ProductDetails{
+    char pname[30];
+    int quantity;
+    int price;
+};
+
+struct ProductSeller{
+    char sname[30];
+    int count;
+    struct ProductDetails *pd;
+};
+
+struct CartSeller{
+    char seller_name[30];
+    int quantity;
+    int price;
+};
+
+struct Cart{
+    char product[30];
+    int quantity;
+    int price;
+   // int count;
+    char seller_name[30];
+    //struct CartSeller *cs;
+
+};
+
+
+struct ProductSeller * acceptSellerDetails(struct Seller *s ,struct ProductSeller *ps)
+{
+    char a[30];
+    int i=seller_count-1;
+    printf("Enter company name: ");
+    fgets(a,5,stdin);
+    scanf("%[^\n]%*c",a);
+    strcpy((s+i)->company,a);
+    strcpy((ps+i)->sname,a);
+    (ps+i)->count=0;
+    printf("Enter seller name: ");
+    scanf("%[^\n]%*c",(s+i)->name);
+    printf("Enter seller address: ");
+    scanf("%[^\n]%*c",(s+i)->address);
+    printf("Enter seller mobile number: ");
+    scanf("%[^\n]%*c",(s+i)->contact);
+    return ps;
+}
+void displaySellerDetails(struct Seller *s)
+{
+    printf("Sno.\tCompany Name\tSeller Name\tAddress\tMobile Number\n");
+    for(int i=0;i<seller_count;i++)
+        printf("%d\t%s\t%s\t%s\t%s\n",i+1,(s+i)->company,(s+i)->name,(s+i)->address,(s+i)->contact);
+    return;
+}
+struct Product * acceptProductDetails(struct Product *p)
+{
+    char a[10];
+    int i = product_count-1;
+    printf("Enter the Product Name: ");
+    fgets(a,5,stdin);
+    scanf("%[^\n]%*c",(p+i)->productName);
+    //fgets((p+i)->productName,25,stdin);
+    printf("Enter the Manufacturer: ");
+    scanf("%[^\n]%*c",(p+i)->manufacturer);
+    printf("Enter the Description: ");
+    scanf("%[^\n]%*c",(p+i)->description);
+    return p;
+
+}
+
+#endif  /* _ADD_Shopping_cart_H_ */
