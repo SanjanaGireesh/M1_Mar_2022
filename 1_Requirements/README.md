@@ -25,6 +25,7 @@
 <br />**5. Customer intelligence** - Ability to use online marketing tools to target new customers and website analysis tools to gain insight into your customers' needs. For advice on improving your customer's on-site experience, read how to measure your online marketing.
 
 **Swot Analysis:**
+
 <br />*Strengths:*
          
 <br />           ➺ Simple & Easy to Use.
