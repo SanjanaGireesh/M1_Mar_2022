@@ -295,3 +295,8 @@ void main()
 
     }
 }
+
+
+
+TESTING AND OUTPUT IMPLEMENTED USING C PROGRAMMING
+Compiler Visual Studio Code
