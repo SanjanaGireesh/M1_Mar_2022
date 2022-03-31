@@ -62,9 +62,44 @@
 **LOW LEVEL REQUIREMENTS:**
 
 <br />RID ---	DESCRIPTION ---	STATUS
-<br />LLR1 ---	ADD BOOKS ---	IMPLEMENTED
-<br />LLR2 ---	DELETE BOOKS ---	IMPLEMENTED
-<br />LLR3 ---	SEARCH BOOKS ---	IMPLEMENTED
-<br />LLR4 ---	ISSUE BOOKS ---	IMPLEMENTED
-<br />LLR5 ---	VIEW BOOKS ---	IMPLEMENTED
+<br />LLR1 ---	ADD PRODUCTS ---	IMPLEMENTED
+<br />LLR2 ---	ADD SELLORS ---	IMPLEMENTED
+<br />LLR3 ---	PRODUCT PRICE ---	IMPLEMENTED
+<br />LLR4 ---	PRODUCT QUALITY ---IMPLEMENTED
+<br />LLR5 ---	ADD TO CART ---	IMPLEMENTED
+
+<br />**The following are the characteristics of the Shopping portal:**
+
+<br />1. The shopping portal can have 'n' number of Products. Maintain details of the Products like Name, Manufacturer, Description.
+
+<br />2. The shopping portal can have a 'n' number of Sellers. Maintain details of the Seller like Name, Address.
+
+<br />3. Each Product can be sold by different Sellers
+
+<br />4. Each Product can be sold at a different price by different Sellers 
+
+<br />5. Each seller can offer a different percentage of discounts for the same Product
+
+<br />6. Each seller can have different quantity in stock of the same Product 
+
+<br />7. Each Product can have a rating of 1 to 5 stars
+
+<br />8. Products can be added to Cart
+
+<br />9. When a Product is added to Cart, the order must go to the least priced seller
+
+**This Shopping Portal Program that has the following operations:**
+
+<br />1. Add Products : Accept Product details such as Product Name, Description, Manufacturer as input and display the list of Products available in the shopping portal.
+
+<br />2. Add Sellers: Accept Seller details as input and display the list of Sellers available in the shopping portal
+
+<br />3. Product price and quantity: Accept the Product Name, quantity in stock and the price of the product for a Seller as input and display a summary. The summary can display the product name, quantity in stock and the price of the product for all the sellers.
+
+<br />4. Add to Cart: Accept the Product name and quantity to be purchased as input. Once the input is
+
+obtained, the shopping portal must find out the least priced seller for the product and allot it to the seller. If the quantity is not available with the least priced seller, the remaining quantity must go to the next leased priced seller.
+
+Display a summary of items in Cart. Do not clear the cart. After each purchase, the Cart summary must display all the items in Cart right from the first purchase.
+
 
