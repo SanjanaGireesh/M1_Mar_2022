@@ -50,13 +50,13 @@
 
  <br />➺  Risk of computer virus.
          
-# <ins> **Opportunities:**
+# <ins> *Opportunities:*
  <br />➺ Collaborate with different healthcare organizations to knowledge share
  <br />➺ Develop healthcare programs and initiatives to drive more community outreach and engagement 
  <br />➺ Increase funding for analytics and researching, including both staff and technology 
  <br />➺   Create mentor programs
 
-# <ins>**Threats:**
+# <ins>*Threats:*
 <br />➺ Economic or political insecurity
 <br />➺ Policy and legislation changes that result in budget deficits 
 <br />➺ Pressure to reduce costs while meeting expectations of universal healthcare coverage 
