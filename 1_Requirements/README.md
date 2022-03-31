@@ -30,7 +30,7 @@
          
 <br />           ➺ Simple & Easy to Use.
 
-<br />           ➺ Increased Library Engagement.
+<br />           ➺ Increased Shopping Engagement.
 
 <br />           ➺  Efficient Cloud Data Management.
 
