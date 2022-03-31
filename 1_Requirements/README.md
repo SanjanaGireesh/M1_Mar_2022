@@ -1,21 +1,21 @@
-# **MANAGING A SIMPLE SHOPPING PORTAL**
+# <ins>**MANAGING A SIMPLE SHOPPING PORTAL**
 
-<br /># **INTRODUCTION:**
+# <ins>**INTRODUCTION:**
 <br />A **"Shop Management System"** is a desktop application that keeps track of all the transactions and generates a bill for all the purchased goods. Shop management or Store management system is an interesting python project for beginners, where we need to track the inventories, products, sales, etc.
 
-<br /># **FUNCTIONALITY PROVIDED:**
+# <ins>**FUNCTIONALITY PROVIDED:**
 <br />➺ Users will be able to purchase laptops, Mobile, Computer Courses.
 <br />➺ Users will be able to add items.
 <br />➺ Users will be able to reduce the quantity or delete the item.
 <br />➺ Users will be able to print the bill.
 
-<br /># **APPROACH:** 
+# <ins>**APPROACH:** 
 <br />Firstly a menu will be displayed to the customer. After the selection, all the products with their prices will be displayed. Then the customer will select the products and chooses the quantity(number of products). This process continues until the shopping is completed. Whenever the customer completes his shopping, the items, quantity, cost, and finally the total amount to be paid are displayed.
 
-<br /># **MAIN OBJECTIVE:**
+# <ins>**MAIN OBJECTIVE:**
 <br />The main objective of the Online Shopping System is to manage the details of Shopping,Internet,Payment,Bills,Customer. It manages all the information about Shopping, Products, Customer, Shopping.
 
-# **BENIFITS:**
+# <ins>**BENIFITS:**
 <br />*The benefits of retailing online include:*
 
 <br />**1. Easy access to market** - In many ways the access to market for entrepreneurs has never been easier. Online marketplaces such as eBay and Amazon allow anyone to set up a simple online shop and sell products within minutes. See selling through online marketplaces.
@@ -24,7 +24,7 @@
 <br />**4. Widen your market / export** - One major advantage over premises-based retailers is the ability expand your market beyond local customers very quickly. You may discover a strong demand for your products in other countries which you can respond to by targeted marketing, offering your website in a different language, or perhaps partnering with an overseas company. See basics of exporting.
 <br />**5. Customer intelligence** - Ability to use online marketing tools to target new customers and website analysis tools to gain insight into your customers' needs. For advice on improving your customer's on-site experience, read how to measure your online marketing.
 
-# **Swot Analysis:**
+# <ins>**SWOT Analysis:**
 
 <br />*Strengths:*
          
@@ -38,7 +38,7 @@
 
 <br />           ➺  Mobile Access.
 
-*Weakness:*
+# <ins>*Weakness:*
            
  <br />➺  The data stored is prone to cyber hacks.
  
@@ -50,7 +50,7 @@
 
  <br />➺  Risk of computer virus.
  
- **HIGH LEVEL REQUIREMENTS:**
+ # <ins>**HIGH LEVEL REQUIREMENTS:**
 
 <br />RID ---	DESCRIPTION ---	STATUS
 <br />HLR1 ---	C LANGUAGE ---	IMPLEMENTED
@@ -59,7 +59,7 @@
 <br />HLR4 ---	HARDDISK ---      IMPLEMENTED
 <br />HLR5 ---	RAM 4GB ---	IMPLEMENTED
 
-**LOW LEVEL REQUIREMENTS:**
+# <ins>**LOW LEVEL REQUIREMENTS:**
 
 <br />RID ---	DESCRIPTION ---	STATUS
 <br />LLR1 ---	ADD PRODUCTS ---	IMPLEMENTED
@@ -68,7 +68,7 @@
 <br />LLR4 ---	PRODUCT QUALITY ---IMPLEMENTED
 <br />LLR5 ---	ADD TO CART ---	IMPLEMENTED
 
-<br />**The following are the characteristics of the Shopping portal:**
+<br /># <ins>**The following are the characteristics of the Shopping portal:**
 
 <br />1. The shopping portal can have 'n' number of Products. Maintain details of the Products like Name, Manufacturer, Description.
 
@@ -88,7 +88,7 @@
 
 <br />9. When a Product is added to Cart, the order must go to the least priced seller
 
-**This Shopping Portal Program that has the following operations:**
+# <ins>**This Shopping Portal Program that has the following operations:**
 
 <br />1. Add Products : Accept Product details such as Product Name, Description, Manufacturer as input and display the list of Products available in the shopping portal.
 
