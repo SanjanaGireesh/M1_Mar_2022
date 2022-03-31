@@ -49,7 +49,15 @@
  <br />➺ Online Systems require high-speed internet connectivity.
 
  <br />➺  Risk of computer virus.
- 
+         
+ Opportunities:
+ <br />➺ Collaborate with different healthcare organizations to knowledge share
+ <br />➺ Develop healthcare programs and initiatives to drive more community outreach and engagement 
+ <br />➺ Increase funding for analytics and researching, including both staff and technology 
+ <br />➺   Create mentor programs
+
+Threats:
+<br />➺ Economic or political insecurity • Policy and legislation changes that result in budget deficits • Pressure to reduce costs while meeting expectations of universal healthcare coverage • Increased competition from newly built hospitals
  # <ins>**HIGH LEVEL REQUIREMENTS:**
 
 <br />RID ---	DESCRIPTION ---	STATUS
