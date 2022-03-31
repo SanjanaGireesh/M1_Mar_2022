@@ -26,7 +26,7 @@
 
 # <ins>**SWOT Analysis:**
 
-<br />*Strengths:*
+# <ins>*Strengths:*
          
 <br />           ➺ Simple & Easy to Use.
 
