@@ -9,6 +9,42 @@
 <br />➺ Users will be able to reduce the quantity or delete the item.
 <br />➺ Users will be able to print the bill.
 
-<br />**APPROACH** 
+<br />**APPROACH:** 
 <br />Firstly a menu will be displayed to the customer. After the selection, all the products with their prices will be displayed. Then the customer will select the products and chooses the quantity(number of products). This process continues until the shopping is completed. Whenever the customer completes his shopping, the items, quantity, cost, and finally the total amount to be paid are displayed.
 
+<br />**MAIN OBJECTIVE:**
+<br />The main objective of the Online Shopping System is to manage the details of Shopping,Internet,Payment,Bills,Customer. It manages all the information about Shopping, Products, Customer, Shopping.
+
+**BENIFITS:**
+<br />*The benefits of retailing online include:*
+
+<br />**1. Easy access to market** - In many ways the access to market for entrepreneurs has never been easier. Online marketplaces such as eBay and Amazon allow anyone to set up a simple online shop and sell products within minutes. See selling through online marketplaces.
+<br />**2. Reduced overheads** - Selling online can remove the need for expensive retail premises and customer-facing staff, allowing you to invest in better marketing and customer experience on your e-commerce site.
+<br />**3. Potential for rapid growth** - Selling on the internet means traditional constraints to retail growth - eg finding and paying for larger - are not major factors. With a good digital marketing strategy and a plan a scale up order fulfilment systems, you can respond and boost growing sales. See planning for e-commerce.
+<br />**4. Widen your market / export** - One major advantage over premises-based retailers is the ability expand your market beyond local customers very quickly. You may discover a strong demand for your products in other countries which you can respond to by targeted marketing, offering your website in a different language, or perhaps partnering with an overseas company. See basics of exporting.
+<br />**5. Customer intelligence** - Ability to use online marketing tools to target new customers and website analysis tools to gain insight into your customers' needs. For advice on improving your customer's on-site experience, read how to measure your online marketing.
+
+**Swot Analysis:**
+<br />*Strengths:*
+         
+<br />           ➺ Simple & Easy to Use.
+
+<br />           ➺ Increased Library Engagement.
+
+<br />           ➺  Efficient Cloud Data Management.
+
+<br />           ➺  Highly Secure, Scalable & Reliable.
+
+<br />           ➺  Mobile Access.
+
+*Weakness:*
+           
+ <br />➺  The data stored is prone to cyber hacks.
+ 
+ <br />➺  Costly and Expensive.
+
+ <br />➺  Complicated to operate.
+
+ <br />➺ Online Systems require high-speed internet connectivity.
+
+ <br />➺  Risk of computer virus.
