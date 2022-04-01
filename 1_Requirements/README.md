@@ -89,7 +89,7 @@
 # <ins> What
     The program for shopping releated data storage,seeking the seller and maintaining data about products
 
-<br />➺ How
+# <ins>  How
          Making the user to select the particular operation and processing it and displaying the results
 Get Outlook for Android
          
