@@ -51,16 +51,16 @@ struct Cart{
 
 struct ProductSeller * acceptSellerDetails(struct Seller *s ,struct ProductSeller *ps)
 {
-    char a[30];
+    char a[];
     int i=seller_count-1;
     printf("Enter company name: ");
-    fgets(a,5,stdin);
-    scanf("%[^\n]%*c",&a);
+    fgets(a,50,stdin);
+    scanf("%[^\n]%*c",a);
     strcpy((s+i)->company,a);
     strcpy((ps+i)->sname,a);
     (ps+i)->count=0;
     printf("Enter seller name: ");
-    scanf("%[^\n]%35*c",(s+i)->&name);
+    scanf("%[^\n]%*c",(s+i)->name);
     printf("Enter seller address: ");
     scanf("%[^\n]%*c",(s+i)->address);
     printf("Enter seller mobile number: ");
@@ -76,10 +76,10 @@ void displaySellerDetails(struct Seller *s)
 }
 struct Product * acceptProductDetails(struct Product *p)
 {
-    char a[10];
+    char a[];
     int i = product_count-1;
     printf("Enter the Product Name: ");
-    fgets(a,5,stdin);
+    fgets(a,50,stdin);
     scanf("%[^\n]%*c",(p+i)->productName);
     //fgets((p+i)->productName,25,stdin);
     printf("Enter the Manufacturer: ");
