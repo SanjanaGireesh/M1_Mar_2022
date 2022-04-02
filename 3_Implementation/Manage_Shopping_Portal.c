@@ -55,7 +55,7 @@ struct ProductSeller * acceptSellerDetails(struct Seller *s ,struct ProductSelle
     int i=seller_count-1;
     printf("Enter company name: ");
     fgets(a,5,stdin);
-    scanf("%[^\n]%*c",a);
+    scanf("%[^\n]%*c",&a);
     strcpy((s+i)->company,a);
     strcpy((ps+i)->sname,a);
     (ps+i)->count=0;
