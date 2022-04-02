@@ -15,7 +15,7 @@ INTRODUCTION
 # <ins>**MAIN OBJECTIVE**
 <br />The main objective of the Online Shopping System is to manage the details of Shopping,Internet,Payment,Bills,Customer. It manages all the information about Shopping, Products, Customer, Shopping.
 
-# <ins>**BENIFITS**
+# <ins>**BENEFITS**
 <br />*The benefits of retailing online include:*
 
 <br />**1. Easy access to market** - In many ways the access to market for entrepreneurs has never been easier. Online marketplaces such as eBay and Amazon allow anyone to set up a simple online shop and sell products within minutes. See selling through online marketplaces.
