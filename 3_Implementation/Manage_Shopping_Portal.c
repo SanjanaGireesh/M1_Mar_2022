@@ -8,42 +8,42 @@ static int productSeller;
 static int cartCount;
 
 struct Product{
-    char productName[30];
-    char manufacturer[30];
-    char description[50];
+    char productName[];
+    char manufacturer[];
+    char description[];
 };
 
 struct Seller{
-    char company[30];
-    char name[30];
-    char address[30];
-    char contact[10];
+    char company[];
+    char name[];
+    char address[];
+    char contact[];
 };
 
 struct ProductDetails{
-    char pname[30];
+    char pname[];
     int quantity;
     int price;
 };
 
 struct ProductSeller{
-    char sname[30];
+    char sname[];
     int count;
     struct ProductDetails *pd;
 };
 
 struct CartSeller{
-    char seller_name[30];
+    char seller_name[];
     int quantity;
     int price;
 };
 
 struct Cart{
-    char product[30];
+    char product[];
     int quantity;
     int price;
    // int count;
-    char seller_name[30];
+    char seller_name[];
     //struct CartSeller *cs;
 
 };
