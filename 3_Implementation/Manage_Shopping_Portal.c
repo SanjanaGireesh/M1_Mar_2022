@@ -8,42 +8,42 @@ static int productSeller;
 static int cartCount;
 
 struct Product{
-    char productName[];
-    char manufacturer[];
-    char description[];
+    char productName[30];
+    char manufacturer[30];
+    char description[30];
 };
 
 struct Seller{
-    char company[];
-    char name[];
-    char address[];
-    char contact[];
+    char company[30];
+    char name[30];
+    char address[30];
+    char contact[30];
 };
 
 struct ProductDetails{
-    char pname[];
+    char pname[30];
     int quantity;
     int price;
 };
 
 struct ProductSeller{
-    char sname[];
+    char sname[30];
     int count;
     struct ProductDetails *pd;
 };
 
 struct CartSeller{
-    char seller_name[];
+    char seller_name[30];
     int quantity;
     int price;
 };
 
 struct Cart{
-    char product[];
+    char product[30];
     int quantity;
     int price;
    // int count;
-    char seller_name[];
+    char seller_name[30];
     //struct CartSeller *cs;
 
 };
@@ -51,10 +51,10 @@ struct Cart{
 
 struct ProductSeller * acceptSellerDetails(struct Seller *s ,struct ProductSeller *ps)
 {
-    char a[];
+    char a[30];
     int i=seller_count-1;
     printf("Enter company name: ");
-    fgets(a,50,stdin);
+    fgets(a,30,stdin);
     scanf("%[^\n]%*c",a);
     strcpy((s+i)->company,a);
     strcpy((ps+i)->sname,a);
@@ -76,10 +76,10 @@ void displaySellerDetails(struct Seller *s)
 }
 struct Product * acceptProductDetails(struct Product *p)
 {
-    char a[];
+    char a[30];
     int i = product_count-1;
     printf("Enter the Product Name: ");
-    fgets(a,50,stdin);
+    fgets(a,30,stdin);
     scanf("%[^\n]%*c",(p+i)->productName);
     //fgets((p+i)->productName,25,stdin);
     printf("Enter the Manufacturer: ");
@@ -152,7 +152,7 @@ void main()
                     break;
 
             case 5: printf("Enter the seller name to enter the product: ");
-                    fgets(temp,3,stdin);
+                    fgets(temp,30,stdin);
                     scanf("%[^\n]%*c",temp);
                     for(i=0;i<seller_count;i++)
                         if (strcmp((psell+i)->sname,temp) ==0)
@@ -165,7 +165,7 @@ void main()
                         (psell+i)->pd = realloc( (psell+i)->pd , (psell+i)->count*sizeof(struct ProductDetails));
 
                         printf("Enter Product Name: ");
-
+                           fgets(abc,30,stdin);
                         scanf("%[^\n]%*c",abc);
                         for(x=0;x<product_count;x++)
                             if(strcmp(abc,product[x].productName)==0)
@@ -193,7 +193,7 @@ void main()
                     break;
 
             case 7: printf("Enter the product name to add to the cart: ");
-                    fgets(temp,3,stdin);
+                    fgets(temp,30,stdin);
                     scanf("%[^\n]%*c",temp);
                     for(i=0;i<product_count;i++)
                         if(strcmp(temp,product[x].productName)==0)
