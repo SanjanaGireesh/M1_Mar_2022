@@ -80,7 +80,7 @@
 # <ins> Where
       It is used in supermarkets for calculating bills
 
-# <ins>Who
+# <ins> Who
     Supermarkets will benefit for calculating bills in easy way.
 
 # <ins> When
