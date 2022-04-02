@@ -60,7 +60,7 @@ struct ProductSeller * acceptSellerDetails(struct Seller *s ,struct ProductSelle
     strcpy((ps+i)->sname,a);
     (ps+i)->count=0;
     printf("Enter seller name: ");
-    scanf("%15[^\n]%*c",(s+i)->name);
+    scanf("%15[^\n]%*c",(s+i)->&name);
     printf("Enter seller address: ");
     scanf("%[^\n]%*c",(s+i)->address);
     printf("Enter seller mobile number: ");
