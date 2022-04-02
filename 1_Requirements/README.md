@@ -81,10 +81,10 @@ INTRODUCTION
       It is used in supermarkets for calculating bills
 
 # <ins> Who
-    Supermarkets will benefit for calculating bills in easy way.
+    Supermarkets will benefit for calculating bills in easy way
 
 # <ins> When
-    To maintain details of seller,Product,Stock and to find the least prized seller for that particular product.
+    To maintain details of seller,Product,Stock and to find the least prized seller for that particular product
 
 # <ins> What
     The program for shopping releated data storage,seeking the seller and maintaining data about products
