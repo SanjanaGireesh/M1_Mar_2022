@@ -1,6 +1,6 @@
 # <ins>**MANAGING A SIMPLE SHOPPING PORTAL**
 
-# <ins>**INTRODUCTION**
+# <ins> INTRODUCTION
 <br />A **"Shop Management System"** is a desktop application that keeps track of all the transactions and generates a bill for all the purchased goods. Shop management or Store management system is an interesting python project for beginners, where we need to track the inventories, products, sales, etc.
 
 # <ins>**FUNCTIONALITY PROVIDED**
