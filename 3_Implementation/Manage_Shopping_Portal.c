@@ -64,7 +64,7 @@ struct ProductSeller * acceptSellerDetails(struct Seller *s ,struct ProductSelle
     printf("Enter seller address: ");
     scanf("%[^\n]%*c",(s+i)->address);
     printf("Enter seller mobile number: ");
-    scanf("%[^\n]%*c",(s+i)->contact);
+    scanf("%[\n]%*c",(s+i)->contact);
     return ps;
 }
 void displaySellerDetails(struct Seller *s)
@@ -80,7 +80,7 @@ struct Product * acceptProductDetails(struct Product *p)
     int i = product_count-1;
     printf("Enter the Product Name: ");
     fgets(a,30,stdin);
-    scanf("%[^\n]%*c",(p+i)->productName);
+    scanf("%[\n]%*c",(p+i)->productName);
     //fgets((p+i)->productName,25,stdin);
     printf("Enter the Manufacturer: ");
     scanf("%[^\n]%*c",(p+i)->manufacturer);
@@ -143,7 +143,7 @@ void main()
 
             case 3: seller_count++;
                     psell=realloc(psell,seller_count*sizeof(struct ProductSeller));
-                    seller=realloc(seller,seller_count*sizeof(struct Seller));
+                    seller=(int*)realloc(seller,seller_count*sizeof(struct Seller));
                     acceptSellerDetails(seller,psell);
                     (psell +seller_count-1)-> pd = (struct ProductDetails *) malloc ( 0 * sizeof(struct ProductDetails));
                     break;
@@ -199,7 +199,7 @@ void main()
                         if(strcmp(temp,product[x].productName)==0)
                                 break;
                     x=cartCount++;
-                    cart = realloc(cart,cartCount*sizeof(struct Cart));
+                    cart = struct*realloc(cart,cartCount*sizeof(struct Cart));
                    // cart[x].count=0;
                     strcpy(cart[x].product,temp);
                     printf("Enter the Quantity : ");
